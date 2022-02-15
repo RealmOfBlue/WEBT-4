@@ -7,6 +7,8 @@ img {
 body {
 
     background-color: #273E47;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.2em;
 }
 h1, h2, h3 {
     text-align: center;
@@ -44,6 +46,7 @@ nav {
     background-color: #FAAA8D;
     text-align: center;
 		height: 100px;
+        border-top:6px solid #273E47;
 }
 
 nav ul {
@@ -65,16 +68,18 @@ nav li a {
     height: 20;
 		width: 15px;
     line-height: 40px;
-    font-size: 0.95em;
+    font-size: 1.1em;
     text-decoration: none;
-		border: 2px solid #273E47;
+		border:6px solid#984447;
 		width: 20;
 		text-align: center;
 		padding-top:5px;
+        border-radius: 25px;
 }
 
 nav li a:hover {
-    background-color: chocolate;
+    background-color:#273E47;
+    color:#A7CAB1;
 }
 
 .col {
@@ -106,17 +111,31 @@ footer {
 .learn_more {
     width: 150px;
     display: block;
-    background-color: darkmagenta;
-    color: black;
-    height: 40;
-    line-height: 50px;
+    background-color:#A7CAB1;
+    color:#273E47; 
+    height: 30px;
+    line-height: 30px;
     font-size: 1.2em;
     text-decoration: none;
+    text-align: center;
+    text-indent: 2px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 6px solid #984447;
+    border-radius: 25px;
+    
 }
 
 .learn_more:hover {
-    background-color: chocolate;
+    background-color:#273E47;
+    color:#A7CAB1;
 }
+
+.active {
+    background-color: #273E47;
+    color: #A7CAB1;
+}
+
 /* mobile styles */
 /* tablet styles */
 @media (min-width: 768px) {
