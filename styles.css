@@ -123,3 +123,9 @@ main img {
 .col img {
     width: 30%;
 }
+
+/* desktop */
+
+@media (min-width: 222222px) {
+    
+}
