@@ -3,12 +3,14 @@ img {
     display: block;
     width: 40%;
     margin: 0 auto;
+
 }
 body {
 
     background-color: #273E47;
     font-family: 'Patrick Hand', cursive;
-    font-size: 1.2em;
+    font-size: 1.4em;
+    color:#273E47;
 }
 h1, h2, h3 {
     text-align: center;
@@ -96,7 +98,8 @@ h2, h3 {
 }
 
 .col img {
-    width: 30%;
+    width: 45%;
+    border-radius: 300px;
 }
 
 main img {
@@ -157,7 +160,7 @@ main img {
     width: 40%;
 }
 .col img {
-    width: 30%;
+    width: 45%;
 }
 
 /* desktop */
