@@ -24,6 +24,7 @@ article {
 audio, video {
     display: block;
     width: 70px;
+    margin-left: 50%;
     
 }
 
