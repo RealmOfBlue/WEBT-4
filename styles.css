@@ -11,6 +11,7 @@ body {
     font-family: 'Patrick Hand', cursive;
     font-size: 1.4em;
     color:#273E47;
+    text-align: center;
 }
 h1, h2, h3 {
     text-align: center;
@@ -21,10 +22,15 @@ h1, h2, h3 {
 article {
     text-indent: 10px;
 }
+
+
 audio, video {
     display: block;
-    width: 70px;
-    margin-left: 50%;
+    width: 30%;
+    box-align: center;
+    margin-left: 35%;
+    margin-top: 10px;
+    
     
 }
 
