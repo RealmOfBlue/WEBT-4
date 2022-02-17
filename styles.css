@@ -176,6 +176,10 @@ footer {
     article {
         margin-top: 40%;
     }
+	.col {
+		margin-right: auto;
+		margin-left: auto;
+	}
 }
 
 /* tablet styles */ 
