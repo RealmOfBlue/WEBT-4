@@ -178,8 +178,8 @@ footer {
     }
 }
 
-/* tablet styles */ /*
-@media (min-width: 768px) {
+/* tablet styles */ 
+@media (max-width: 999px) {
 
 header img {
     width: 15%;
@@ -189,7 +189,7 @@ table {
 }
 
 }
-*/
+
 /* desktop */
 
 @media (min-width: 1000px) {
