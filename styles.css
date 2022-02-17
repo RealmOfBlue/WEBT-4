@@ -5,7 +5,9 @@ img {
     margin: 0 auto;
 
 }
-
+#flex {
+	display: flex;
+}
 
 
 body {
@@ -157,9 +159,7 @@ footer {
 /* mobile styles */
 @media (max-width: 609px) {
 	
-	#flex {
-	display: flex;
-}
+	
     h1 {
         font-size: 2.8em;
     }
