@@ -5,9 +5,6 @@ img {
     margin: 0 auto;
 
 }
-#flex {
-	display: flex;
-}
 
 
 body {
@@ -100,15 +97,16 @@ nav li a:hover {
     color:#A7CAB1;
 }
 
-.col {
+.col, {
     
-		padding: 0;
+		
         border-top: 6px solid#273E47;
         text-indent: 10px;
-	width: 25%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+
+    
         
     
 }
@@ -183,9 +181,12 @@ footer {
         margin-top: 40%;
     }
 	.col {
-		margin: 20px;
+		
 		width: 100%;
+        display: block;
 	
+	
+    
 	}
 }
 
@@ -222,6 +223,9 @@ table {
     }
     tr {
         border-bottom: 6px solid #273E47;
+    }
+    #flex {
+        display: flex;
     }
     
 
